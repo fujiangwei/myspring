@@ -23,5 +23,5 @@
             initParams = {@WebInitParam(name = "base-package", value = "com.kinson.myspring")})
             
 > java元注解介绍
-[java元注解介绍](https://i.cnblogs.com/EditPosts.aspx?postid=10634174&update=1)
-[java反射](https://i.cnblogs.com/EditPosts.aspx?postid=10486709&update=1)
+[java元注解介绍](https://www.cnblogs.com/kingsonfu/p/10634174.html)
+[java反射](https://www.cnblogs.com/kingsonfu/p/10486709.html)
