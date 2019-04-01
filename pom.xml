@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.kinson.myspring</groupId>
+    <artifactId>myspring</artifactId>
+    <version>1.0.0</version>
+
+    <!--打包类型-->
+    <packaging>war</packaging>
+    <!--项目名称-->
+    <name>spring-demo</name>
+    <!--项目描述-->
+    <description>使用原生注解实现spring mvc框架案例</description>
+
+    <!--开发者信息-->
+    <developers>
+        <developer>
+            <id>000000001</id>
+            <name>kinson</name>
+            <email>229945910@qq.com</email>
+        </developer>
+    </developers>
+
+    <!--属性-->
+    <properties>
+        <servlet.version>4.0.1</servlet.version>
+    </properties>
+
+    <!--项目依赖-->
+    <dependencies>
+        <!-- servlet 依赖-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <!--构建相关-->
+    <build>
+        <!--打包最终名-->
+        <finalName>myspring</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
