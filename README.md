@@ -22,6 +22,7 @@
     @WebServlet(name = "dispatcherServlet", urlPatterns = "/*", loadOnStartup = 1,
             initParams = {@WebInitParam(name = "base-package", value = "com.kinson.myspring")})
             
-> java元注解介绍
+> 关联文章参照
+
 [java元注解介绍](https://www.cnblogs.com/kingsonfu/p/10634174.html)
 [java反射](https://www.cnblogs.com/kingsonfu/p/10486709.html)
